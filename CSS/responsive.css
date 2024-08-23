@@ -1,0 +1,189 @@
+/* ipad width>=740px and width <1024px  */
+@media only screen and (min-width: 46.25em) and (max-width:63.9375em) { 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+
+    }
+    #header1{
+        width:768px;
+        height: 120px;
+    }
+ 
+   
+    .slideshow img {
+        width:200px;
+        height: 200px;
+    }
+    .container {
+        width: 200px;
+        left: -60px;
+    }
+    
+    aside{
+        display: flex;
+        margin-top: 25px;
+        left: 275px;
+    }
+    .Chill{
+        position: relative;
+        display: block;
+        width: 170px;
+        height: 600px;
+        left: -140px;
+    }
+    .Chill img  {
+        position: relative;
+        left: 20px;
+        top: 10px;
+        width: 130px;
+        height: 130px;
+    }
+    .top{
+        position: relative;
+        display: block;
+        width: 170px;
+        height: 600px;
+        left: -130px;
+    }
+    .top img  {
+        position: relative;
+        top: 10px;
+        left: 20px;
+        width: 130px;
+        height: 130px;
+    }
+    .niemvui{
+        position: relative;
+        display: block;
+        width: 170px;
+        height: 600px;
+        left: -120px;
+    }
+    .niemvui img {
+        position: relative;
+        left: 20px;
+        top: 10px;
+        width: 130px;
+        height: 130px;
+    }
+    .p1  img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: -10px;
+  }
+  .p2  img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: -10px;
+  }
+  .p3 img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: -10px;
+  }
+  .p4  img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: -10px;
+  }
+#newsong h1 {
+    position: relative;
+    left: 50px;
+}
+#newsong img {
+    position: relative;
+    margin: 10px 70px;
+    width: 130px;
+    height: 130px;
+}
+.videoto img {
+    width: 270px;
+}
+footer{
+    width: 768px;
+}
+}
+/*ip se*/
+@media only screen and (max-width:  23.4375em)  {
+    body{
+        overflow-x: hidden;
+    }
+   
+    #header1 li a ,.reach  {
+        display: none;
+    }
+    #header1 li, a, .dropbtn{
+        padding: 0px;
+        color: wheat;
+        display: block;
+    }
+   
+    
+    .bar{
+        display: inline;
+        position: relative;
+        top: 7px;
+        left: 260px;
+        font-size: 40px;
+        background-color: rgb(85, 6, 189);
+     
+}
+    .container{
+        position: relative;
+        margin-left: -70px;
+    }
+    aside{
+        display: flex;
+        
+    }
+    .Chill,.top,.niemvui{
+        flex-direction: column;
+        border-color: none;
+        border-style: none;
+        
+    }
+    .Chill {
+        position: relative;
+        left: -490px;
+    }
+    .top{
+        position: relative;
+        left: -640px;
+    }
+    .niemvui,aside h1,ul>hr{
+        display: none;
+    }
+    #newsong{
+        position: relative;
+        top:200px;
+        width: 375px;
+
+    }
+    #newsong ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: -30px;
+    }
+   
+
+    #vdeo{
+        display: none;
+    }
+    footer{
+        position: relative;
+        top: 700px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+.st1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  height: 300px;
+  
+}
+header {
+  color: green;
+  padding: 20px;
+  text-align: center;
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: #0cec0c;
+  text-decoration: none;
+}
+.profile{
+  border-style: solid;
+  color: green;
+}
+.profile h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: green;
+}
+.profile p {
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  overflow: hidden;
+}
+p:hover  {
+    overflow: visible; 
+    white-space: normal;
+}
+aside {
+  position: relative;
+  width: 1000px;
+}
+aside h1{
+  color: green;
+  font-size: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.Album{
+    width: 1290px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: green;
+    display: flex;
+}
+.c1  {
+    position: relative;
+    display: flex;
+    padding: 20px;
+  }
+.c1 img {
+    border-radius: 20px;
+    margin: 20px;
+  }
+.p1 {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.c1:hover .p1{
+    opacity: 0.8;
+  
+}
+#Mv h1 {
+  position: relative;
+  left: 150px;
+}
+#Mv ul {
+    width: 1290px;
+    height: 200px;
+}
+.videoto{
+  position: relative;
+  display: flex;
+}
+  
+.vdt1 {
+    position: relative;
+}
+.vdt1 img {
+  position: relative;
+  display: block;
+  margin: 10px 50px;
+  width:505px;
+  height: 200px;
+  border: 2px green solid;
+}
+.icon_time_video{
+  position: absolute;
+  background-color: #aa2068;
+  bottom: 10px;
+  float: left;
+  right: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+footer{
+  display: flex;
+  background-color: #757474;
+}
+.flex-item {
+  flex: 1;
+  padding: 1rem;
+}
+.flex-item h1 {
+  color: white;
+  margin-left: 12px;
+  font-size: 20px;
+}
+nav ul li  {
+display: inline;
+margin-right: 20px;
+}
+a{
+  color: black;
+}
+

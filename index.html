@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nhạc Hi nghe nhạc cực đã</title>
+    <link rel="icon" sizes="32x32" type="image/png" href="IMAGES/NHạc HI.png"/>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css">
+<!-- FontAwesome 6.2.0 CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+<!-- (Optional) Use CSS or JS implementation -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+  integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+  </head>
+  <body>
+    <header>
+      <ul id="header1">
+        <label class="logo1  " > <i class="fa-solid fa-music"></i></label>
+        <li>
+          <a href=""><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a>
+        </li>
+        <li>
+          <a href="./HTMLS/dangnhap.html" target="_blank"
+            ><i class="fa fa-sign-in" aria-hidden="true"></i> Đăng nhập</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">
+            <i class="fa fa-music" aria-hidden="true"></i> Chủ Đề</a>
+          <div class="dropdown-content">
+            <a href="#">Nhạc Trẻ</a>
+            <a href="#">Nhạc Cách Mạng</a>
+            <a href="#">Nhạc Trữ Tình</a>
+            <a href="#">Nhạc Bolero</a>
+            <a href="#">Nhạc Lofi</a>
+            <a href="#">POP</a>
+            <a href="#">Rock</a>
+            <a href="#">Folk Đương Đại</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">
+            <i class="fa fa-user" aria-hidden="true"></i> Ca Sĩ</a>
+          <div class="dropdown-content">
+            <a href="./HTMLS/sontung.html" target="_blank">Sơn Tùng</a>
+            <a href="#">Erik</a>
+            <a href="#">Đức Phúc</a>
+            <a href="#">Hà Anh Tuấn</a>
+            <a href="#">Mỹ Tâm</a>
+            <a href="#">Noo Phước Thịnh</a>
+            <a href="#">Hoàng Thùy Linh</a>
+          </div>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-chart-simple"></i>
+            BXH</a>
+        </li>
+        <!--search-->
+        <div class="reach">
+          <li>
+            <input type="text" placeholder="Tìm bài hát, video, playlist...." />
+          </li>
+        </div>
+        <li><button class="bar"><i class="fa-solid fa-bars"></i></button></li>
+      </ul>
+    </header>
+    <section>
+    <!-- slideshow-->
+      <div class="slideshow">
+        <img src="IMAGES/ai.jpg" width="1000px" height="350px">
+          <img src="./IMAGES/hongnhan.jpg" width="1000px" height="350px">
+          <img src="./IMAGES/image/tat.jpg" width="1000px" height="350px">
+          <img src="IMAGES/yêu.jpg" width="1000px" height="350px">
+          <img src="IMAGES/ai.jpg" width="1000px" height="350px">
+          <img src="IMAGES/tat.jpg" width="1000px" height="350px">
+          <img src="IMAGES/ai.jpg" width="1000px" height="350px">
+          </div>
+      <main id="main1">
+        <!-- nghe nhạc-->
+        <audio src="" id="audio"></audio>
+        <div class="container">
+          <h1 class="song-name">Song name 1</h1>
+          <p class="artist">Artist 1</p>
+          <div class="box-disk"></div>
+          <div class="music-slider">
+            <input type="range" value="0" class="seek-bar" />
+            <span class="current-time">00:00</span>
+            <span class="music-time">00:00</span>
+          </div>
+          <div class="controls">
+            <button class="btn btnback">
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <button class="btn-play pause">
+              <span></span>
+              <span></span>
+            </button>
+            <button class="btn btnnext">
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <script src="./JS/song.js"></script>
+        <script src="./JS/Jscript.js"></script> 
+      </main>
+        <aside>
+          <ul class=" Chill">
+            <h1> CHILL.</h1>
+            <li class="c1">
+              <img src="IMAGES/chill-lofi.jpg" width="180px" height="180px">
+              <div class="p1">
+                <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+              </div>
+            </li>
+            <li class="c2">
+              <img src="IMAGES/ben.webp" width="180px" height="180px">
+              <div class="p2">
+                <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+              </div>
+            </li>  
+            <li class="c3">
+              <img src="IMAGES/nghien.jpg" width="180px" height="180px">
+              <div class="p3">
+                <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+              </div>
+            </li> 
+            <li class="c4">
+              <img src="IMAGES/6h.jpg" width="180px" height="180px">
+              <div class="p4">
+                <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+              </div>
+            </li>
+          </ul>
+        </div>
+        <ul class="top">
+          <h1> TOP100</h1>
+          <li class="c1">
+            <img src="IMAGES/toptre.jpg" width="180px" height="180px">
+            <div class="p1">
+              <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+            </div>
+          </li> 
+          <li class="c2">
+            <img src="IMAGES/tôppo.jpg" width="180px" height="180px">
+            <div class="p2">
+              <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+            </div>
+          </li> 
+          <li class="c3">
+            <img src="IMAGES/topulk.jpg" width="180px" height="180px">
+            <div class="p3">
+              <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+            </div>
+          </li> 
+          <li class="c4">
+            <img src="IMAGES/tophoa.jpg" width="180px" height="180px">
+            <div class="p4">
+              <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+            </div>
+          </li> 
+        </ul>
+        <ul class="niemvui">
+          <h1> OPTION</h1>
+          <li class="c1">
+            <img src="IMAGES/buon.jpg" width="180px" height="180px">
+            <div class="p1">
+              <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+            </div>
+          </li> 
+          <li class="c2">
+            <img src="IMAGES/kothe.jpg" width="180px" height="180px">
+            <div class="p2">
+              <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+            </div>
+          </li> 
+          <li class="c3">
+            <img src="IMAGES/jpop.jpg" width="180px" height="180px">
+            <div class="p3">
+              <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+            </div>
+          </li> 
+          <li class="c4">
+            <img src="IMAGES/vpop.jpg" width="180px" height="180px">
+            <div class="p4">
+              <img src="./IMAGES/svg/play-circle-svgrepo-com.svg" width="90px">
+            </div>
+          </li> 
+        </ul>
+        </article>
+    </section>
+    <div id="newsong" >
+        <h1> Ca Sĩ Nổi Bật</h1>
+        <hr color="green">
+        <div class="con1">
+        <ul>
+          <li> <img src="IMAGES/chay.jpg" > </li>
+          <hr>
+          <li> <img src="IMAGES/mytam.jpg" ></li>
+          <hr>
+          <li> <img src="IMAGES/manhquynh.jpg" ></li>
+        </ul>
+        </div>   
+    </div>
+    <!--video-->
+    <nav id="vdeo">
+      <h1> MV Hot <i class="fa-solid fa-forward"></i></h1>
+      <ul>
+        <Li class="videoto">
+          <div class="vdt1">
+            <img src="IMAGES/ai.jpg">
+            <span class="icon_time_video"> 3:18</span>
+          </div>
+          <div class="vdt1">     
+            <img src="IMAGES/emve.jpg">
+            <span class="icon_time_video"> 3:18</span>
+          </div>
+        </Li>
+        <Li class="videonho1">
+            <img src="IMAGES/phap.jpg">
+            <img src="IMAGES/hongnhan.jpg">
+            <img src="IMAGES/ht.jpg">
+            <img src="IMAGES/yêu.jpg">  
+        </Li> 
+        <li class="videonho1">
+          <img src="IMAGES/1nguoi.jpg">
+          <img src="IMAGES/tat.jpg  ">
+          <img src="IMAGES/keobonggon.jpg">
+          <img src="IMAGES/sontung.jpg">
+        </li>  
+      </ul>
+    </nav>
+<!-- footer-->
+    <footer>
+      <div class="flex-item">
+        <h1> Công ty</h1>
+        <nav> 
+            <ul> 
+             <li> <a style="text-decoration: none" href="#">Giới thiệu</a></li><br>
+             <li> <a style="text-decoration: none" href="#">Việc làm </a></li><br>
+             <li> <a style="text-decoration: none" href="#">For the record</a></li><br>
+            </ul> 
+           </nav> 
+    </div>
+    <div class="flex-item">
+        <h1> Cộng đồng </h1>
+        <nav>
+            <ul>
+                <li> <a style="text-decoration: none" href="#">Dành cho các Nghệ sĩ</a></li><br>
+                <li> <a style="text-decoration: none" href="#">Nhà phát triển</a></li><br>
+                <li> <a style="text-decoration: none" href="#">Quảng cáo</a></li><br>
+                <li> <a style="text-decoration: none" href="#">Nhà đầu tư</a></li><br>
+                <li> <a style="text-decoration: none" href="#">Nhà cung cấp</a></li><br>
+            </ul>
+        </nav>
+    </div>
+    <div class="flex-item">
+        <h1>Liên kết hữu ích</h1>
+        <nav>
+            <ul>
+                <li> <a style="text-decoration: none" href="#">Hỗ trợ</a></li><br>
+                <li> <a style="text-decoration: none" href="#">Ứng dụng di động miễn phí</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="flex-item">
+        <h1>Follow Us </h1><br>
+        <nav> 
+            <ul> 
+             <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg></a></li> 
+             <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+              </svg></a></li> 
+             <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a></li>  
+            </ul> 
+           </nav>
+    </div>
+    </footer>
+  </body>
+</html>
